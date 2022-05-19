@@ -1,4 +1,4 @@
-# typed-routes-generator
+# Typed routes generator
 
 Provide route definitions in yaml file and get generated typed routes with parameters in paths. There is no limit how deep routes can be. Also you can define in one yaml file multiple route types that each will be exported as separate const.
 

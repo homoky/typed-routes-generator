@@ -1,6 +1,6 @@
 {
   "name": "typed-routes-generator",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Generate typed routes from yaml file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,15 +23,13 @@
   ],
   "author": "Petr Homoky",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "@types/node": "^17.0.34",
+    "ts-node": "^10.7.0",
     "commander": "^9.2.0",
     "deep-clone-map": "^1.4.1",
     "fs": "^0.0.1-security",
     "yaml": "^2.1.0"
-  },
-  "devDependencies": {
-    "@types/node": "^17.0.34",
-    "ts-node": "^10.7.0"
   },
   "bin": "./dist/index.js"
 }
