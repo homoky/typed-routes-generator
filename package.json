@@ -1,0 +1,37 @@
+{
+  "name": "typed-routes-generator",
+  "version": "1.0.3",
+  "description": "Generate typed routes from yaml file",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/homoky/typed-routes-generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/homoky/typed-routes-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/homoky/typed-routes-generator/issues"
+  },
+  "scripts": {
+    "prepublish": "tsc",
+    "example": "ts-node src/index.ts --source ./example/routes.yaml --output ./example/generated.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "routes",
+    "typed"
+  ],
+  "author": "Petr Homoky",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "deep-clone-map": "^1.4.1",
+    "fs": "^0.0.1-security",
+    "yaml": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.34",
+    "ts-node": "^10.7.0"
+  },
+  "bin": "./dist/index.js"
+}

@@ -1,0 +1,13 @@
+mainRoutes:
+  firstLevel:
+    anotherLevel:
+      anotherLevel:
+        lastLevel:
+          homeWithArgument: "/[someargumentkey]"
+
+websiteRoutes:
+  home: /
+  product:
+    archive: "/products"
+    detail: "/products/[detail]"
+  aboutUs: "/about-us"

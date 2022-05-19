@@ -1,0 +1,7 @@
+.dist
+.DS_Store
+dist
+node_modules
+yarn-error.log
+yarn.lock
+example/generated.ts
