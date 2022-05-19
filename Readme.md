@@ -14,7 +14,7 @@ yarn typed-routes-generator --source ./example/routes.yaml --output ./example/ge
 
 ### Source yaml file (./example/routes.yaml)
 
-```
+```yaml
 mainRoutes:
   firstLevel:
     anotherLevel:
@@ -32,7 +32,7 @@ websiteRoutes:
 
 ### Output (./example/generated.ts)
 
-```
+```typescript
 export const mainRoutes = {
   firstLevel: {
     anotherLevel: {
@@ -54,7 +54,7 @@ export const websiteRoutes = {
 
 ### Usage of generated code
 
-```
+```typescript
 websiteRoutes.product.detail({ detail: 'product-id' });
 // Output: /products/product-id
 ```
