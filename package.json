@@ -1,6 +1,6 @@
 {
   "name": "typed-routes-generator",
-  "version": "1.0.6",
+  "version": "1.2.0",
   "description": "Generate typed routes from yaml file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
